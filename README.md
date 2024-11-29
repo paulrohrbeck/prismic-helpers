@@ -15,8 +15,10 @@ Add this to the `package.json`:
 
 ```
   "scripts": {
-    "slice-usage": "node ./internal-tools/slice-usage.mjs",
+    "slice-usage": "node ./slice-usage.mjs",
   },
 ```
+
+Add your repo name to the `slice-usage.mjs` file and uncomment the script sections you need. Note that this is not a turnkey tool with all the bells and whistles.
 
 Then run with `npm run slice-usage`
